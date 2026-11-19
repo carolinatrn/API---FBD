@@ -23,7 +23,7 @@ app.add_middleware(
 # TODO: conectarse a la base de datos Admonsis  
 # db = client["ISIS*******"]
 client = MongoClient(os.environ["MONGO_URI"])
-db = client["ISIS2304"]
+db = client["ISIS2304C28202620"]
 
 
 @app.get("/")
